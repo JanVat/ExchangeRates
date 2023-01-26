@@ -52,7 +52,7 @@ CREATE TABLE exchange_rates (
 
 
 
-zadani:
+ZADANI:
 Ukládání a náhled kurzovních lístků
 Cílem je vytvořit aplikaci, která pracuje s kurzovními lístky.
 Zadání má dvě části. FE část, která se zaměřuje na tvorbu frontendového řešení (HTML,

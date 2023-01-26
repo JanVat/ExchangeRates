@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Exchange rate list</title>
+    <link rel="stylesheet" th:href="@{/main.css}"/>
+</head>
+<body>
+<div class="container-table">
+    <button class="btn" id="ButtonDataFromURL">ExtURL</button>
+    <button class="btn" id="ButtonDataFromDB">DB</button>
+    <table>
+        <thead>
+        <tr>
+            <th>Currency</th>
+            <th>Sell</th>
+            <th>Buy</th>
+            <th>Detail</th>
+        </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</div>
+<script th:src="@{/main.js}"></script>
+</body>
+</html>
